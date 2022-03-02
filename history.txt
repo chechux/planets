@@ -1,0 +1,503 @@
+  114  touch css/styles.css
+  115  git st
+  116  nano javascript/script.js
+  117  nano javascript/script,js
+  118  git st
+  119  git add .
+  120  git commit -m "Proyecto para empezar a ramificar"
+  121  git log --oneline
+  122  git branch javascript
+  123  git branch
+  124  git branch css
+  125  git branch
+  126  git log --oneline
+  127  git checkout javascript
+  128  git branch
+  129  git log --oneline
+  130  gitk
+  131  ls
+  132  nano javascript/script.js 
+  133  git st
+  134  git add .
+  135  git commit -m "modificado script"
+  136  git log --oneline
+  137  git chekout master
+  138  git checkout mater
+  139  ggit 
+  140  3 3w fwdf
+  141  gnebkeb cccc
+  142  git checkout master
+  143  git log --online
+  144  git log --oneline
+  145  git checkout javascript
+  146  git checkout master
+  147  git log --oneline
+  148  ls
+  149  git merge javascript 
+  150  git st
+  151  git log
+  152  git ckechout javascript
+  153  git checkout master
+  154  git checkout javascript 
+  155  git log --oneline
+  156  gitk
+  157  nano javascript/script.js 
+  158  git add .
+  159  git commit -m "modifico el script con un.log"
+  160  git st
+  161  nano javascript/script.js 
+  162  git checkout master
+  163  git commit -m "vuelvo a modificar el script"
+  164  git add .
+  165  git commit -m "vuelvo a modificar el script"
+  166  git checkout master
+  167  gitk
+  168  git init
+  169  git branch
+  170  git log
+  171  ls
+  172  ls css/
+  173  cat css/styles.css
+  174  git checkout javascript
+  175  ls
+  176  git checkout master
+  177  git log
+  178  diff --git a/css/styles.css
+  179  git log -p -1
+  180  git checkout css
+  181  nano styles.css
+  182  git cat styles.css
+  183  cat style.css
+  184  cat css/styles.css
+  185  nano css/styles.css
+  186  nano css/styles.css
+  187  cat css/styles.css
+  188  git checkout master
+  189  cat css/styles.css
+  190  git log --oneline --decorate --graph --all
+  191  git checkout css
+  192  touch styles2.css
+  193  git add .
+  194  nano style2.css
+  195  git add .
+  196  git commit -m "añadimos estilo"
+  197  git log
+  198  touch index.txt
+  199  ls
+  200  mkdir ejemplo_carpeta
+  201  ls
+  202  git commit "creamos una carpeta y un archivo"
+  203  git add .
+  204  git status
+  205  touch archivo_borrado.txt
+  206  ls
+  207  rm archivo_borrado.txt 
+  208  git status
+  209  git branch master
+  210  brach master
+  211  git checkout master
+  212  mkdir proyecto2
+  213  cd proyecto2
+  214  git commit -m "creamos la carpeta proyecto2"
+  215  git add proyecto2
+  216  git log
+  217  git status
+  218  git init
+  219  git status
+  220  git add .
+  221  git commit -m "añadimos el primer archivo"
+  222  cd ejemplo_carpeta
+  223  touch css.css
+  224  git status
+  225  git add .
+  226  git touch css2.css
+  227  touch css2.css
+  228  git add .
+  229  git commit -m "añadimos archivos de css a la carpeta"
+  230  ls -ls ia
+  231  ls
+  232  pwd
+  233  cd ..
+  234  pwd
+  235  ls -lsia
+  236  cd ejemplo_carpeta
+  237  git mv css2.css script.js
+  238  ls
+  239  git status
+  240  git commit -a -m "renombro el archivo"
+  241  touch archivo_borrado.txt
+  242  rm archivo_borrado.txt
+  243  git commit -a -m "borramos el archivo"
+  244  git status
+  245  git status
+  246  cd ..
+  247  git mv index.txt index.html
+  248  git status
+  249  git commit -a -m "renombro el index que se me habia olvidado"
+  250  nano index.html
+  251  nano index.html
+  252  git status
+  253  git commit -a -m "modificamos el archivo index"
+  254  mv ejemplo_carpeta styles
+  255  git commit -a -m "cambiamos el nombre de la carpeta que tambien se me habia olvidado"
+  256  cd styles
+  257  nano css
+  258  git status
+  259  git commit -a -m "modificamos el css"
+  260  cd ..
+  261  nano index
+  262  git statu
+  263  git status
+  264  nano index.html
+  265  git status
+  266  git add index.html
+  267  git status
+  268  git commit -m "volvemos a añadir cosas al html"
+  269  git nano css.css
+  270  nano css.css
+  271  nano css
+  272  cd styles/
+  273  nano css.css
+  274  rm css
+  275  git status
+  276  git add css.css
+  277  git commit -m "añadimos estilos al css"
+  278  git status
+  279  git add script.js
+  280  git status
+  281  git commit -m "añadimos un archivo js"
+  282  nano script.js 
+  283  nano index.html
+  284  nano script.js 
+  285  git status
+  286  git commit -a -m 
+  287  git commit -a -m "modificamos el script"
+  288  cd ..
+  289  nano index.html
+  290  git commit -a
+  291  git status
+  292  git add .
+  293  git commit
+  294  git status
+  295  git commit -m "relacionamos el js con el html"
+  296  git status
+  297  cd styles/
+  298  nano css.css
+  299  git status
+  300  cd ..
+  301  nano index.html
+  302  git status
+  303  nano index.html
+  304  git status
+  305  git commit -a 
+  306  git commit index.html
+  307  git commit -a -m
+  308  git commit -a -m "modificamos bien el html"
+  309  git status
+  310  nano index.html
+  311  nano index.html
+  312  git add -a
+  313  git add .
+  314  git status
+  315  git branch pruebas
+  316  git status
+  317  git chekout pruebas
+  318  git checkout pruebas
+  319  git rename pruebas pruebas-html
+  320  git branch -m pruebas-html
+  321  git status
+  322  git branch pruebas-styles
+  323  git branch --list
+  324  nano index.html
+  325  git status
+  326  git commit -a -m "prueba de enlazar css y js"
+  327  git status
+  328  nano index.html
+  329  git commit -a -m "prueba de enlazar css y js 2"
+  330  git checkout master
+  331  nano index.html
+  332  git ckeckout pruebas-html
+  333  git ckeckout pruebas-html
+  334  git checkout pruebas-html
+  335  git checkout master
+  336  git merge cabecera
+  337  git merge pruebas-html
+  338  git status
+  339  git commit -m "fusionamos las ramas"
+  340  git branch --lisy
+  341  git branch --list
+  342  git checkout pruebas-styles
+  343  nano css.cs
+  344  nano css.css
+  345  cd styles/
+  346  nano css.csss
+  347  nano css.css
+  348  git checkout master
+  349  clear
+  350  cd ..
+  351  git log
+  352  git branch
+  353  git log --oneline
+  354  nano index.html
+  355  git init
+  356  ls -a 
+  357  ls. shh/
+  358  cd
+  359  la -la
+  360  ls -la
+  361  shh-keygen
+  362  ssh-keygen
+  363  cd .ssh
+  364  cat id_rsa.pub 
+  365  ssh -T github.com
+  366  ssh -T git@github.com
+  367  git remote -v
+  368  git init
+  369  git remote -v
+  370  
+  371  git remote add origin git@github.com:chechux/proyecto-web2.git
+  372  git branch -M main
+  373  git push -u origin maingit remote add origin git@github.com:chechux/proyecto-web2.git
+  374  git remote add origin git@github.com:chechux/proyecto-web2.git
+  375  git remote -v
+  376  git push -u origin main
+  377  git log
+  378  git status
+  379  git add .
+  380  git commit -m "añadimos todos los archivos"
+  381  gut status
+  382  git status
+  383  git push -u origin main
+  384  cd ..
+  385  mkdir proyecjo_hajar
+  386  cd proyecjo_hajar
+  387  git clone git@github.com:chechux/JennyProject.git
+  388  git status
+  389  git log
+  390  cd proyecjo_hajar
+  391  git log
+  392  cd JennyProject/
+  393  git log
+  394  cat readme.md
+  395  ls -la
+  396  git checkout -b cambios
+  397  ls
+  398  nano readme.md
+  399  cat readme.md
+  400  gitt diff --word-diff
+  401  git diff --word-diff
+  402  git diff --diff
+  403  git remote -v
+  404  git commit -a -m "mira los cambios que he hecho a ver si t molan"
+  405  git status
+  406  git push origin main 
+  407  git push origin cambios
+  408  git push origin cambios
+  409  nano readme.md
+  410  clear
+  411  cd ..
+  412  cd ..
+  413  cd..
+  414  mkdir examen prueba
+  415  ls examen prueba
+  416  cd prueba examen
+  417  mkdir nuevo_proyecto
+  418  cd nuevo_proyecto/
+  419  touch nuevo_archivo.txt
+  420  git commit -a -m "añadimos archivo"
+  421  git status
+  422  git init
+  423  touch readme.txt
+  424  git status
+  425  git restore nuevo_archivo.txt
+  426  git add readme.txt
+  427  git commit -m "añadimos archivo"
+  428  git status
+  429  ls
+  430  git status
+  431  nano readme.txt 
+  432  git statu
+  433  git status
+  434  git commit -a -m "modificamos"
+  435  git diff
+  436  cd readme.txt 
+  437  git duff
+  438  git duff
+  439  git diff
+  440  touch readme.txt 
+  441  git status
+  442  touch arch1
+  443  touch arch2
+  444  touch arch3
+  445  git status
+  446  git add .
+  447  git status
+  448  git restore --staged
+  449  git restore --staged .
+  450  git status
+  451  git add .
+  452  git status
+  453  git restore --staged arch1
+  454  git status
+  455  rm arch1
+  456  mkdir practica_examen
+  457  cd practica_examen/
+  458  echo
+  459  echo "Tus muertos" >> tusmmuertos.txr
+  460  ls
+  461  cat tusmmuertos.txr 
+  462  touch tusmmuertos.txr 
+  463  renname tusmmuertos.txr tusmuertos.txt
+  464  rename tusmmuertos.txr tusmuertos.txt
+  465  git mv tusmmuertos.txr tusmuertos.txt
+  466  mv tusmmuertos.txr tusmuertos.txt
+  467  ls
+  468  touch tusmuertos.txt 
+  469  gedit tusmuertos.txt 
+  470  gedit tusmuertos.txt 
+  471  ls
+  472  touch nuevo_archivo.css
+  473  ls
+  474  git branch nueva_rama
+  475  git checkout nueva_rama
+  476  git checkout nueva_ram
+  477  git checkout master
+  478  git remove tusmuertos.txt
+  479  remove tusmuertos.txt 
+  480  git status
+  481  git add . 
+  482  git add .
+  483  git status
+  484  git commit -m"añadimos archivos"
+  485  git rm tusmuertos.txt 
+  486  git status
+  487  git restore tusmuertos.txt
+  488  git restore --staged tusmuertos.txt
+  489  git status
+  490  git restore tusmuertos.txt
+  491  git status
+  492  ls
+  493  git merge nueva_rama
+  494  git status
+  495  gitk
+  496  mkdir examen2
+  497  cd examen2
+  498  ls examen2
+  499  ls
+  500  ls -a
+  501  git init
+  502  ls
+  503  ls examen2
+  504  ls
+  505  ls -a
+  506  git status
+  507  pwd
+  508  git rm examen2 planets
+  509  cd ..
+  510  git rm examen2 planets
+  511  cd examen2
+  512  nano mars.txt
+  513  ls
+  514  cat mars.txt 
+  515  git status
+  516  git add .
+  517  git status
+  518  git commit -m"Stat notes on mars as a base"
+  519  git status
+  520  git log
+  521  ls
+  522  nano mars.txt
+  523  cat mars.txt 
+  524  git status
+  525  git diff
+  526  git add .
+  527  git cat mars.txt
+  528  git status
+  529  git commit -m"Add concerns about effects of mars"
+  530  nano mars.txt 
+  531  git diff
+  532  git add mars.txt 
+  533  git diff
+  534  git commit -m"Discuss concerns about Mars' climate for Mummy"
+  535  git status
+  536  git log
+  537  git log --oneline
+  538  git log --oneline --graph --all --decorate
+  539  nano mars.txt 
+  540  nano venus.txt
+  541  git add .
+  542  git status
+  543  git commit -m"Write plans to start a base on Venus"
+  544  git log --format=full
+  545  git add me.txt
+  546  git nano me.txt
+  547  nano me.txt
+  548  ls
+  549  git add me.txt
+  550  touch me.txt
+  551  ls
+  552  git status
+  553  git add .
+  554  git commit -m"Update Vlad's bio." --author=Rosa melano <rosamelano@gmail.com>"
+git log
+  555  git commit -m"Update Vlad's bio." --author=Rosa melano <rosamelano@gmail.com>"
+  556  git commit -m "Update Vlad's bio." --author=Rosa melano <rosamelano@gmail.com>"
+  557  git commit -m "Update Vlad's bio." --author=Rosa melano <rosamelano@gmail.com>"
+
+
+  558  git commit -m "Update Vlad's bio." --author="Rosa melano <rosamelano@gmail.com>"
+  559  git log --format=full
+  560  nano mars.txt 
+  561  git diff HEAD mars.txt
+  562  git diff mars.txt
+  563  git diff
+  564  git diff HEAD~1 mars.txt
+  565  git diff HEAD~2 mars.txt
+  566  git log --oneline
+  567  git diff 04206c8
+  568  git diff 04206c8 mars.txt
+  569  git status
+  570  nano mars.txt 
+  571  git checkout HEAD mars.txts
+  572  git status
+  573  git cat
+  574  cat mars.txt 
+  575  git checkout HEAD mars.txts
+  576  git checkout mars.txts
+  577  git log
+  578  git status
+  579  git checkout HEAD mars.txt
+  580  cat mars.txt 
+  581  git log --oneline
+  582  git checkout 04206c8 mars.txt
+  583  car mars.txt 
+  584  cat mars.txt 
+  585  git status
+  586  git checkout -f master mars.txt
+  587  cat mars.txt 
+  588  nano venus.txt 
+  589  git add venus.txt 
+  590  nano venus.txt 
+  591  git commit -m"comment on a venus as an unsuiteable base"
+  592  git checkout HEAD venus.txt
+  593  cat venus.txt 
+  594  git status
+  595  git diff HEAD~3 mars.txt
+  596  cat mars.txt 
+  597  git log mars.txt
+  598  git log --patch mars.txt
+  599  git log --patch HEAD~3 mars.txt
+  600  mkdir results
+  601  touch a.dat b.dat c.dat results/a.out results/b.out
+  602  git status
+  603  .gitignore
+  604  touch .gitignore
+  605  nano .gitignore 
+  606  git status
+  607  git add .
+  608  git commit -m"creamos archivo .gitignore" 
+  609  git status
+  610  git add a.dat
+  611  git status --ignored
+  612  nano .gitignore 
+  613  history>history.txt
